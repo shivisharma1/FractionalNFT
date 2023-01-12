@@ -1,0 +1,22 @@
+{
+  "name": "backend-demo",
+  "version": "1.0.0",
+  "description": "Gasless Tx Demo In NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keval Sayar",
+  "license": "ISC",
+  "dependencies": {
+    "@biconomy/mexa": "^2.0.35",
+    "@truffle/hdwallet-provider": "^2.1.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "web3": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

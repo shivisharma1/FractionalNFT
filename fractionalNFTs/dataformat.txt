@@ -1,0 +1,49 @@
+NFT metadata
+Jewellery name  //string
+Jewellery category //string
+Asset token //string
+Jewellery image URL //string
+
+
+NFT details (attributes)
+Jewellery metal //string
+Purity //string
+Net weight //string
+Gross weight //string
+Stones //string (json) default - null
+Additional data // string (json) default - null
+
+
+Functions required
+
+MintFNFT 
+Metadata
+Shares
+Owner
+
+
+TransferFNFT
+transferType //string
+Price //string
+Amount of shares 
+Receiver account (wallet address)
+
+TransferNFT 
+Token address
+New owner wallet address
+
+
+ValuationService
+ValuationFirm //string // json
+Timestamp 
+NFT Token address
+ValutionData //string //json { net_weight , gross_weight ,purity,stones }
+updateJewellery // bool ( if this is true, the net_weight , gross_weight ,purity,stones data will be force updated in the nft details attributes)
+UpdateJewelleryData
+NFT Token address
+Jewellery metal //string
+Purity //string
+Net weight //string
+Gross weight //string
+Stones //string (json)
+Additional data // string (json) 
